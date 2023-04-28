@@ -122,6 +122,7 @@ namespace LibReplanetizer
             mtlfs.WriteLine($"newmtl mtl_{id}");
             mtlfs.WriteLine("Ns 1000");
             mtlfs.WriteLine("Ka 1.000000 1.000000 1.000000");
+            mtlfs.WriteLine("Ks 0.000000 0.000000 0.000000");
             mtlfs.WriteLine("Kd 1.000000 1.000000 1.000000");
             mtlfs.WriteLine("Ni 1.000000");
             mtlfs.WriteLine("d 1.000000");
